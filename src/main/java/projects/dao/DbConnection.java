@@ -1,5 +1,16 @@
 package projects.dao;
 
+//Create a class in the projects.dao package named DbConnection
+//Create the following constants: HOST, PASSWORD, PORT, SCHEMA, and USER
+//Set the constants to the correct values
+//create a method named getConnection()
+// 	a.	Create a String variable named uri that contains the MySQL connection URI.
+//	b.  Call DriverManager to obtain a connection. Pass the connection string (URI) to DriverManager.getConnection().
+//	c.  Surround the call to DriverManager.getConnection() with a try/catch block. The catch block should catch SQLException.
+//	d.  Print a message to the console (System.out.println) if the connection is successful.
+//	e.  Print an error message to the console if the connection fails. Throw a DbException if the connection fails.
+
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
